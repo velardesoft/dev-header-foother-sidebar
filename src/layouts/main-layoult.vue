@@ -1,3 +1,10 @@
+<script setup>
+import TheHeader from "@/layouts/the-header.vue";
+import TheFooter from "@/layouts/the-footer.vue";
+import TheSidebar from "@/layouts/the-sidebar.vue";
+import TutorialManagement from "@/contexts/learning/pages/tutorial-management.page.vue";
+</script>
+
 <template>
   <div class="layout">
     <TheHeader />
@@ -10,13 +17,6 @@
     <TheFooter />
   </div>
 </template>
-
-<script setup>
-import TheHeader from "@/layouts/the-header.vue";
-import TheFooter from "@/layouts/the-footer.vue";
-import TheSidebar from "@/layouts/the-sidebar.vue";
-import TutorialManagement from "@/contexts/learning/pages/tutorial-management.page.vue";
-</script>
 
 <style scoped>
 .layout {
